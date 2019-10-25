@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration Form</title>
+</head>
+<body>
+    <header>
+        <h3>Registration Form</h3>
+    </header>
+    <form action="form.html" method="post">
+       
+    <fieldset>
+        <legend>Personal info</legend>
+    <div>
+        <label for="name">Name:</label>
+        <input type="text" name="name" id="name" required pattern="[A-Z][a-z]+\s[A-Z][a-z]+">
+    </div>
+    <div>
+        <label for="member">Member</label>
+        <input type="radio" name="membership" id="member" value="Member">
+        <br>
+        <label for="on-member">On-Member</label>
+        <input type="radio" name="membership" id="on-member" value="on-member">
+    </div>
+    <div>
+        <label for="mail">Email</label>
+        <input type="email" name="mail" id="mail">
+    </div>
+</fieldset>
+    </form>
+    
+</body>
+</html>
